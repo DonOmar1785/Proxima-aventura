@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<!-- Le dice al navegador que este archivo es HTML5 -->
+<html lang="es">
+<!-- Etiqueta principal del documento, lang="es" porque todo el texto está en español -->
+
+<head>
+    <!-- Aquí va la info que el navegador necesita pero que no se ve en la pantalla -->
+
+    <meta charset="UTF-8">
+    <!-- Para que las tildes y la ñ se vean bien -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Para que la página se vea bien en celular, tablet o pc -->
+
+    <title>Aventuras Imperdibles Gaming</title>
+    <!-- Este texto es el que sale en la pestaña del navegador -->
+</head>
+
+<body>
+    <!-- Todo lo que se ve en la página va aquí adentro -->
+
+    <!-- ===================== PORTADA ===================== -->
+    <header>
+        <!-- El header es la parte de bienvenida, lo primero que se ve -->
+
+        <center>
+        <!-- Etiqueta vieja pero funciona sin necesidad de css, centra el texto y las imagenes -->
+
+            <h1>Tu próxima aventura</h1>
+            <p><em>5 mundos imperdibles te esperan. Elige por dónde empezar.</em></p>
+
+            <!-- Cada imagen es un link que baja hasta la sección de ese juego -->
+            <!-- Todo en una sola línea para que no se dañe el link -->
+            <a href="#warframe"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/230410/header.jpg" alt="Warframe" width="230"></a>
+            <a href="#bioshock"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/409710/header.jpg" alt="Saga BioShock" width="230"></a>
+            <a href="#l4d2"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/550/header.jpg" alt="Left 4 Dead 2" width="230"></a>
+            <a href="#forest"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/242760/header.jpg" alt="The Forest" width="230"></a>
+            <a href="#blasphemous"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/774361/header.jpg" alt="Blasphemous" width="230"></a>
+
+            <p>▼ <a href="#contenido"><strong>Explorar juegos</strong></a> ▼</p>
+
+        </center>
+    </header>
+
+    <hr>
+    <!-- Línea que separa la portada del resto -->
+
+    <!-- ===================== MENÚ ===================== -->
+    <nav id="contenido">
+        <!-- Este es el menú de la izquierda, la lista de juegos -->
+
+        <h2>🎮 Juegos</h2>
+
+        <ul>
+            <li><a href="#warframe">Warframe</a></li>
+            <li><a href="#bioshock">Saga BioShock</a></li>
+            <li><a href="#l4d2">Left 4 Dead 2</a></li>
+            <li><a href="#forest">The Forest</a></li>
+            <li><a href="#blasphemous">Blasphemous</a></li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <!-- ===================== JUEGOS ===================== -->
+    <main>
+
+        <!-- ===== WARFRAME ===== -->
+        <section id="warframe">
+            <h2>🛡️ Warframe</h2>
+
+            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/230410/header.jpg" alt="Warframe" width="400">
+
+            <p>
+                Warframe es un juego de acción y disparos en tercera persona, gratuito y
+                cooperativo, donde controlas a un Tenno: un guerrero ancestral que despierta
+                tras siglos de hibernación para enfrentarse a distintas facciones en un
+                sistema solar futurista. Combina disparos, combate cuerpo a cuerpo y
+                movimientos de parkour muy fluidos, mientras personalizas decenas de
+                trajes de combate llamados "Warframes".
+            </p>
+
+            <!-- El details/summary crea un desplegable nativo del navegador, sin nada de código extra -->
+            <details>
+                <summary>🎬 Ver tráiler</summary>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/MsbL8lFHrZI" title="Tráiler de Warframe" allowfullscreen></iframe>
+            </details>
+        </section>
+
+        <hr>
+
+        <!-- ===== SAGA BIOSHOCK ===== -->
+        <section id="bioshock">
+            <h2>🌊 Saga BioShock</h2>
+
+            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/409710/header.jpg" alt="Saga BioShock" width="400">
+
+            <p>
+                La saga BioShock es una trilogía de disparos en primera persona reconocida
+                por su narrativa profunda y sus escenarios inolvidables: la ciudad submarina
+                de Rapture y la ciudad flotante de Columbia. Combina combate con armas de
+                fuego y poderes especiales llamados "Plásmidos", mientras plantea preguntas
+                sobre el libre albedrío, el poder y la utopía.
+            </p>
+
+            <details>
+                <summary>🎬 Ver tráiler</summary>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/BeP35Jw2_ho" title="Tráiler de la saga BioShock" allowfullscreen></iframe>
+            </details>
+        </section>
+
+        <hr>
+
+        <!-- ===== LEFT 4 DEAD 2 ===== -->
+        <section id="l4d2">
+            <h2>🧟 Left 4 Dead 2</h2>
+
+            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/550/header.jpg" alt="Left 4 Dead 2" width="400">
+
+            <p>
+                Left 4 Dead 2 es un shooter cooperativo en primera persona donde cuatro
+                supervivientes deben abrirse paso entre hordas de infectados hasta llegar a
+                puntos seguros. Cada partida es distinta gracias a su "Director de IA", que
+                genera enemigos y eventos de forma dinámica, lo que lo convierte en un
+                clásico imprescindible para jugar en equipo.
+            </p>
+
+            <details>
+                <summary>🎬 Ver tráiler</summary>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/N1shYxPdGB8" title="Tráiler de Left 4 Dead 2" allowfullscreen></iframe>
+            </details>
+        </section>
+
+        <hr>
+
+        <!-- ===== THE FOREST ===== -->
+        <section id="forest">
+            <h2>🌲 The Forest</h2>
+
+            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/242760/header.jpg" alt="The Forest" width="400">
+
+            <p>
+                The Forest es un juego de supervivencia y terror en primera persona. Tras
+                sobrevivir a un accidente aéreo, tu personaje debe construir refugios,
+                fabricar herramientas y encontrar comida en una península boscosa, mientras
+                evita, o enfrenta, a una sociedad de mutantes caníbales que habita bajo tierra.
+            </p>
+
+            <details>
+                <summary>🎬 Ver tráiler</summary>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ay3tDjnBziY" title="Tráiler de The Forest" allowfullscreen></iframe>
+            </details>
+        </section>
+
+        <hr>
+
+        <!-- ===== BLASPHEMOUS ===== -->
+        <section id="blasphemous">
+            <h2>⚔️ Blasphemous</h2>
+
+            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/774361/header.jpg" alt="Blasphemous" width="400">
+
+            <p>
+                Blasphemous es un metroidvania de acción en 2D, ambientado en el oscuro y
+                religioso mundo de Cvstodia. Controlas al Penitente, un guerrero silencioso
+                que debe abrirse camino entre criaturas grotescas y jefes brutales usando
+                combate cuerpo a cuerpo exigente, en un estilo visual de pixel art muy
+                detallado inspirado en el arte español clásico.
+            </p>
+
+            <details>
+                <summary>🎬 Ver tráiler</summary>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/T3SxYMu5qGY" title="Tráiler de Blasphemous" allowfullscreen></iframe>
+            </details>
+        </section>
+
+    </main>
+
+    <hr>
+
+    <footer>
+        <center>
+            <small>Página hecha con puro HTML5, sin CSS ni JavaScript.</small>
+        </center>
+    </footer>
+
+</body>
+</html>
